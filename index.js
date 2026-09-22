@@ -37,6 +37,8 @@ const CONFIG = {
     // ROLE
     TEAM_SL_ROLE: '1292371740109836339',
     BUG_REPORT_ROLE: '1523846923377836093',
+    MANAGER_ROLE: '1301690164828966922',
+
 
     // KANALI
     TICKET_PANEL_CHANNEL: '1292371924760137748',
@@ -496,7 +498,7 @@ async function createTicket(
             '💸';
 
         pingRole =
-            CONFIG.TEAM_SL_ROLE;
+            CONFIG.MANAGER_ROLE;
 
         description =
             'Prosimo, opišite **kaj želite kupiti oziroma glede česa donirate**. Če želite kupiti izdelek s spletne strani, priložite tudi **povezavo do izdelka**.';
